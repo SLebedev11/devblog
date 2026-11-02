@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>   
+    <header class="header">
+        <div class="container header__container">
+            <p class="header-logo">
+                <span class="header__logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                        <line x1="14" y1="4" x2="10" y2="20"></line>
+                        </svg>
+                    </span>
+                
+                <span class="header__logo-text">
+                    Dev
+                    <span class="header__logo-text--accend">Blog</span>
+                </span>
+            </p>
+
+            <nav class="header__menu">
+                <ul class="header__menu list">
+                    <li class=""><a class="header__menu-item" href="#">Головна</a></li>
+                    <li class=""><a class="header__menu-item" href="#">Статті</a></li>
+                    <li class=""><a class="header__menu-item" href="#">Проекти</a></li>
+                    <li class=""><a class="header__menu-item" href="#">Про мене</a></li>
+                </ul>
+            </nav>
+
+
+            <button class="header__btn">Зв'язатись ✉️</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__container">
+                <div class="hero_left">
+                    <p class="hero__eyebrow">Відкритий до пропозицій</p>
+                    <h1 class="hero__title">Привіт, я<span class="hero__title--accend"> Олексій</span>
+                        <br> <span class="hero__title--gradient">Frontend Developer</span>
+                    </h1>
+                    <p class="hero__desc">
+                        Пишу про HTML, CSS, JavaScript і те що дізнаюсь у процесі навчання. Ділюсь реальним досвідом — без зайвої теорії.
+                    </p>
+                    <div class="hero__btn-wrapper">
+                        <button class="hero__btn hero__btn-main">
+                            📝 Читати
+                        </button>
+                        <button class="hero__btn2 hero__btn-main">
+                            💬 Написати мені
+                        </button>
+                </div>
+                <hr class="divider hero__divider">
+                <div class="hero__details">
+                    <div class="hero__detail">
+                        <span class="hero__detail-num">24</span> 
+                        <span class="hero__detail-text">Статті</span>
+                    </div>
+                    <div class="hero__detail">
+                        <span class="hero__detail-num">8 міс</span>
+                        <span class="hero__detail-text">у розробці</span> 
+                    </div>
+                    <div class="hero__detail">
+                        <span class="hero__detail-num">6</span>
+                        <span class="hero__detail-text">проєктів</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__terminal">
+                <div class="hero__terminal-header"></div>
+                <div class="hero__terminal-body">
+                    <pre class="terminal">
+<span class='terminal__arrow'>→</span> cat about-me.json
+{
+  <span class='terminal__property'>"name"</span>: <span class='terminal__text'>"Сєрафім Лєбєдєв"</span>,
+  <span class='terminal__property'>"role"</span>: <span class='terminal__text'>"Frontend Developer"</span>,
+  <span class='terminal__property'>"stack"</span>: [<span class='terminal__text'>"HTML"</span>, <span class='terminal__text'>"CSS"</span>, <span class='terminal__text'>"JS"</span>],
+  <span class='terminal__property'>"learning"</span>: <span class='terminal__text'>"React + TypeScript"</span>,
+  <span class='terminal__property'>"open_to_work"</span>: <span class="terminal__bool">true</span>,
+  <span class='terminal__property'>"location"</span>: <span class='terminal__text'>"Одесса, Україна 🇺🇦"</span>
+}
+<div class="terminal__bottom">
+    <span class='terminal__arrow'>→</span> <span class='terminal__cursor'></span>
+</div>
+
+            </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="articles">
+        <div class="container articles__container">
+            <div class="articles__header">
+                <h2 class="articles__header-title">Останні <span class="articles__header-title-span">статті</span></h2>
+                <a href="#" class="articles__header-link">Всі статті →</a>
+            </div>
+
+            <div class="articles__main">
+                <div class="articles__main-card">
+                    <div class="articles__main-card-header1"><img src="/img/Emoji.svg" alt=""></div>
+                    <div class="articles__main-card-main">
+                        <h1 class="main-card-main__title1">CSS</h1>
+                        <p class="main-card-main__text1">Написав цей сайт за день(не весь) годин без AI</p>
+                        <p class="main-card-main__text2">Захворів і замість пар писав код</p>
+                        <hr class="divider hero__divider">
+                        <div class="articles__main-card-footer">
+                            <h1 class="main-card-footer-title">2 листопада 2026</h1>
+                            <h1 class="main-card-footer-title">8 хв читати</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="articles__main-card">
+                    <div class="articles__main-card-header2">⚡</div>
+                    <div class="articles__main-card-main">
+                        <h1 class="main-card-main__title2">Tailwind</h1>
+                        <p class="main-card-main__text1">Написав сайт fooddash без використання власного css</p>
+                        <p class="main-card-main__text2">tailwind-дуже зручний для якщо втановити його не через CDN</p>
+
+                        <hr class="divider hero__divider">
+                        <div class="articles__main-card-footer">
+                            <h1 class="main-card-footer-title">1 листопада 2026</h1>
+                            <h1 class="main-card-footer-title">12 хв читати</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="articles__main-card">
+                    <div class="articles__main-card-header3">🚀</div>
+                    <div class="articles__main-card-main">
+                        <h1 class="main-card-main__title3">Performance</h1>
+                        <p class="main-card-main__text1">Підняв Lighthouse до 100</p>
+                        <p class="main-card-main__text2">Конкретні виправлення:додав meta ,WebP конвертація з реальними цифрами до/після.</p>
+                        <hr class="divider hero__divider">
+                        <div class="articles__main-card-footer">
+                            <h1 class="main-card-footer-title">22 лют. 2025</h1>
+                            <h1 class="main-card-footer-title">10 хв читати</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="stack">
+        <div class="container stack__container">
+            <h2 class="stack__title">Мій <span class="stack__title-span">стек</span></h2>
+            <div class="stack__graph">
+                <div class="stack__graph stack__frontend">
+                    <div class="stack__graph-item">
+                        <h3 class="stack__graph-title">Frontend</h3>
+
+
+
+                        <ul class="stack__frontend-list">
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>HTML5 / Семантика</h4>
+                                    <span>90%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--front" data-progress="html"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>CSS / SCSS</h4>
+                                    <span>85%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--front" data-progress="css"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>JavaScript (ES6+)</h4>
+                                    <span>70%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--front" data-progress="js"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>Bootstrap 5 / Tailwind</h4>
+                                    <span>80%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--front" data-progress="boostrap"></div>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+
+                    
+                    <div class="stack__graph-item">
+                        <h3 class="stack__graph-title">Інструменти</h3>
+
+
+                        <ul class="stack__frontend-list">
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>Git / GitHub</h4>
+                                    <span>75%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--tools" data-progress="git"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>Figma (читаємо макети)</h4>
+                                    <span>65%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--tools" data-progress="figma"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>DevTools / Lighthouse</h4>
+                                    <span>78%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--tools" data-progress="devtools"></div>
+                            </li>
+                            <li class="stack__graph-item">
+                                <div class="stack__graph-head">
+                                    <h4>Вчу: React</h4>
+                                    <span>30%</span>
+                                </div>
+                                <div class="stack__graph-bar stack__graph-bar--tools" data-progress="react"></div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="stack__footer">
+                <h1 class="stack__footer-title">Технології</h1>
+                <ul class="stack__footer-list">
+                    <li class="stack__footer-list-item">HTML5</li>
+                    <li class="stack__footer-list-item">CSS3</li>
+                    <li class="stack__footer-list-item">SCSS</li>
+                    <li class="stack__footer-list-item">JavaScript</li>
+                    <li class="stack__footer-list-item">Bootstrap 5</li>
+                    <li class="stack__footer-list-item">Tailwind CSS</li>
+                    <li class="stack__footer-list-item">AOS</li>
+                    <li class="stack__footer-list-item">Lottie</li>
+                    <li class="stack__footer-list-item">Git</li>
+                    <li class="stack__footer-list-item">GitHub Pages</li>
+                    <li class="stack__footer-list-item">Figma</li>
+                    <li class="stack__footer-list-item">VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="letter">
+        <div class="container letter__container">
+            <h1 class="letter__title">Написати <span class="letter-title__span">мені</span></h1>
+
+            <div class="letter__main">
+
+            
+            <div class="letter__blockleft">
+                <h2 class="letter__blockleft-title">Відкритий до співпраці</h2>
+                <p class="letter__blockleft-text">Шукаю стажування або першу роботу у веб-розробці. Також радо відповідаю на питання про навчання і перший досвід у професії.</p>
+                <ul class="letter__blockleft-list">
+                    <div class="letter__blockleft-list-item">
+                        <img src="./img/octopus.svg" alt="" class="blockleft-list-item__img">
+                        <h1 class="blockleft-list-item__title">github.com/SLebedev11-dev</h1>
+                    </div>
+                    
+                    <div class="letter__blockleft-list-item">
+                        <img src="./img/case.svg" alt="" class="blockleft-list-item__img">
+                        <h1 class="blockleft-list-item__title">linkedin.com/in/serafim</h1>
+                    </div>
+
+                    <div class="letter__blockleft-list-item">
+                        <img src="./img/plane.svg" alt="" class="blockleft-list-item__img">
+                        <h1 class="blockleft-list-item__title">@serafim_dev</h1>
+                    </div>
+
+                    <div class="letter__blockleft-list-item">
+                        <img src="./img/letter.svg" alt="" class="blockleft-list-item__img">
+                        <h1 class="blockleft-list-item__title">@serafimgmail.com</h1>
+                    </div>
+                </ul>
+            </div>
+
+
+
+            
+            <div class="letter__form">
+                <div class="letter__form-top">
+                    <div class="form-top__block">
+                        <h2 class="form-top__block-title">Імʼя</h2>
+                        <input type="text" class="form-top__block-input" required placeholder="Твоє імʼя">
+                    </div>
+                    <div class="form-top__block">
+                        <h2 class="form-top__block-title">Email</h2>
+                        <input type="email" class="form-top__block-input" required placeholder="email@example.com"> 
+                    </div>
+                </div>
+
+                <div class="letter__form-bottom">
+                    <div class="form-bottom__block">
+                        <h2 class="form-bottom__block-title">Тема</h2>
+                        <input type="text" class="form-bottom__block-input" required placeholder="Про що хочеш написати?"> 
+                    </div>
+                    <div class="form-bottom__block">
+                        <h2 class="form-bottom__block-title">Повідомлення</h2>
+                        <textarea name="" id="" class="form-bottom__block-biginput">Напиши тут ...</textarea>
+                    </div>
+                    <button class="form-bottom-button">Надіслати повідомлення →</button>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <h2 class="footer__title">© 2025 DevBlog · Зроблено з 🤍 і VS Code</h2>
+            <ul class="footer__list">
+                <li class="footer__list-item">Головна</li>
+                <li class="footer__list-item">Статті</li>
+                <li class="footer__list-item">GitHub</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
